@@ -23,8 +23,8 @@ st.title("🍔 NYC Restaurant Violations Dashboard")
 st.markdown(
     "A web-based clone of the [`eigenfoo/nyc-restaurant-violations`]"
     "(https://github.com/eigenfoo/nyc-restaurant-violations) dashboard. "
-    "It pulls the latest dataset from NYC Open Data to display restaurant "
-    "inspection results and violation citations."
+    "It pulls the latest data from NYC Open Data so you can look up restaurant "
+    "inspection results and the violations they were cited for."
 )
 
 
@@ -139,11 +139,11 @@ else:
 st.markdown("---")
 st.markdown(
     f"""
-**Caveats & Notes:**
-- This dashboard loads only the **{DEFAULT_LIMIT:,} most recent** inspection records, not the full historical dataset.
-- There may be data errors or missing data as compiled from NYC administrative systems.
-- Grades and critical flags reflect the cited inspection and may not represent a restaurant's current status.
-- Data provided by [NYC Open Data — DOHMH New York City Restaurant Inspection Results]({DATASET_PAGE}).
+**A few things to keep in mind:**
+- This dashboard loads only the **{DEFAULT_LIMIT:,} most recent** inspection records, not the full history.
+- The source data is compiled from NYC administrative systems, so it can contain errors or gaps.
+- Grades and critical flags reflect the inspection they were recorded on, which may not match a restaurant's current status.
+- Data comes from [NYC Open Data: DOHMH New York City Restaurant Inspection Results]({DATASET_PAGE}).
 """
 )
 
@@ -156,7 +156,8 @@ st.markdown(
 
 This dashboard is an open-source clone of
 [`eigenfoo/nyc-restaurant-violations`]({ORIGINAL_PROJECT_URL}) by George Ho.
-Released under the MIT License — original work © 2021 George Ho; this derivative
-work © 2026 jratlee. Not affiliated with or endorsed by the City of New York.
+It is released under the MIT License. The original work is copyright 2021 George Ho,
+and this version is copyright 2026 False Dawn Industries. This project is not
+affiliated with or endorsed by the City of New York.
 """
 )
