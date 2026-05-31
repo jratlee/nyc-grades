@@ -11,6 +11,11 @@ DATASET_PAGE = (
 DEFAULT_LIMIT = 50000
 REQUEST_TIMEOUT = 30  # seconds
 
+# Project links and attribution
+REPO_URL = "https://github.com/jratlee/nyc-grades"
+README_URL = "https://github.com/jratlee/nyc-grades/blob/main/README.md"
+ORIGINAL_PROJECT_URL = "https://github.com/eigenfoo/nyc-restaurant-violations"
+
 # Set page configuration
 st.set_page_config(page_title="NYC Restaurant Violations", page_icon="🍔", layout="wide")
 
@@ -139,5 +144,19 @@ st.markdown(
 - There may be data errors or missing data as compiled from NYC administrative systems.
 - Grades and critical flags reflect the cited inspection and may not represent a restaurant's current status.
 - Data provided by [NYC Open Data — DOHMH New York City Restaurant Inspection Results]({DATASET_PAGE}).
+"""
+)
+
+st.markdown("---")
+st.markdown(
+    f"""
+**About this project**
+
+📖 [Documentation & README]({README_URL}) &nbsp;•&nbsp; 💻 [Source code]({REPO_URL})
+
+This dashboard is an open-source clone of
+[`eigenfoo/nyc-restaurant-violations`]({ORIGINAL_PROJECT_URL}) by George Ho.
+Released under the MIT License — original work © 2021 George Ho; this derivative
+work © 2026 jratlee. Not affiliated with or endorsed by the City of New York.
 """
 )
