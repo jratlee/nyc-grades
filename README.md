@@ -1,9 +1,5 @@
 # 🍔 nyc-grades
 
- Want to check if your favorite pizza spot passed its last health inspection? This free dashboard lets anyone look up New York City restaurant grades, violations, and inspection dates across all five boroughs.
-
----
-
 A simple web dashboard for looking up New York City restaurant inspection results
 and the violations they were cited for. It's built with
 [Streamlit](https://streamlit.io/).
