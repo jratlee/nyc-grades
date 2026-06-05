@@ -156,7 +156,7 @@ st.markdown(
 
 This dashboard is an open-source clone of
 [`eigenfoo/nyc-restaurant-violations`]({ORIGINAL_PROJECT_URL}) by George Ho.
-It is released under the MIT License. The original work is copyright 2021 George Ho,
+It is released under the [MIT License](https://github.com/jratlee/nyc-grades/blob/main/LICENSE). The original work is copyright 2021 George Ho,
 and this version is copyright 2026 False Dawn Industries. This project is not
 affiliated with or endorsed by the City of New York.
 """
