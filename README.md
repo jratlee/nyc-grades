@@ -1,6 +1,6 @@
 # 🍔 nyc-grades
 
-**In plain English:** Want to check if your favorite pizza spot passed its last health inspection? This free dashboard lets any New Yorker look up restaurant grades, violations, and inspection dates across all five boroughs.
+ Want to check if your favorite pizza spot passed its last health inspection? This free dashboard lets anyone look up New York City restaurant grades, violations, and inspection dates across all five boroughs.
 
 ---
 
